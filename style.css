@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=math, Roboto");
+body{
+    width: 400px;
+    margin:50px 0px; 
+    padding:0px;
+    text-align:center;
+    border: 1px solid white;
+    margin: 100px 400px;
+}
+span {
+    
+   font-family: "math";
+   font-size: 18px;
+}
+h3{
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 0%
+}
+.name{
+    display: flex;
+} 
+
+.f-name{
+    margin-left: 0px;
+    margin-right: 125px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+    font-family: roboto;
+}
+.l-name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+    font-family: roboto;
+}
+.inputs{
+    display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.input1{
+    width: 190px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.input3{
+    width: 100%;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.txt{
+    justify-content: start;
+    margin-right: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+    font-family: roboto;
+}
+.submit{
+    margin-top: 15px;
+    width: 100%;
+    height: 45px;
+    color: white;
+    background-color: rgb(223, 168, 19);
+    border: rgb(180, 135, 14);
+    border-radius: 5px;
+    font-size: large;
+    
+}
+.signin{
+    text-align: left;
+    margin-top: 5px;
+}
+.signin a{
+    color: grey;
+}
+::placeholder {
+    font-family: sans-serif;
+    color: grey;
+    font-size: medium;
+    padding-left: 5%;
+    
+}
